@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 
-module.exports.getproduct = (url) => {
+let getproduct = (url) => {
 return fetch(url)
 .then(response => response.text())
 .then(body =>{
@@ -26,3 +26,4 @@ return fetch(url)
 
 }
 
+module.exports = getproduct ;
