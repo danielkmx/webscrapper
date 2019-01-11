@@ -14,7 +14,7 @@ return fetch(url)
  return product = {
     name: $('.product-name').text(),
     breadcrumb: breadcrumbs,
-    img: $('.LazyImageWrapper-z414st-0.bgHGEK.ViewUI-oocyw8-6.kvewNe img').attr("src"),
+    img: $('.LazyImageWrapper-z414st-0.bgHGEK.ViewUI-oocyw8-6.kvewNe').attr("src"),
     seller: $('.seller-00776574000660').text(),
     price: $('.sales-price').text(),
     id: Number($('.product-id').text().split(".")[1].replace(")", ""))
