@@ -14,8 +14,3 @@ const getproduct = require('./webScrapper/getproduct.js);
 
 
 
-###Author
-
-*Daniel Bezerra
-
-
